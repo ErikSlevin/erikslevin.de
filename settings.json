@@ -1,0 +1,46 @@
+[Auszug aus der settings.json]
+
+"profiles":
+
+{
+	"defaults":
+	{
+	},
+	"list":
+	[
+		{	                
+			// Ubuntu Server
+			"guid": "{f0863bfd-817a-459c-b710-20a166d5d5e5}",
+			"name": "Ubuntu",
+			"commandline" : "ssh root@ip-adresse-vom server",
+			"icon" : "ms-appx:///C:/Users/pfad-zum-icon",
+			"suppressApplicationTitle" : true,
+			"hidden": false	
+		},
+
+		{
+			// Powershell
+			"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+			"name": "Windows PowerShell",
+			"commandline": "powershell.exe",
+			"hidden": false
+		},
+
+		{
+			// CMD
+			"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+			"name": "Eingabeaufforderung",
+			"commandline": "cmd.exe",
+			"hidden": false
+		},
+		{
+			// Azure Cloud Shell
+			"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+			"hidden": false,
+			"name": "Azure Cloud Shell",
+			"source": "Windows.Terminal.Azure"
+		}
+	]
+},
+
+[Auszug aus der settings.json]
